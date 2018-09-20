@@ -242,10 +242,12 @@ $.widget( "ui.draggable", $.ui.mouse, {
 			relative: this._getRelativeOffset()
 		};
 
+
 		this.offset.click = {
-			left: event.pageX - this.offset.left,
-			top: event.pageY - this.offset.top
+			left: event.pageX - this.offset.parent.left - this.element.get(0).offsetLeft,
+			top: event.pageY - this.offset.parent.top - this.element.get(0).offsetTop
 		};
+
 	},
 
 	_mouseDrag: function( event, noPropagation ) {

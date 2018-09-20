@@ -5,28 +5,28 @@
       "C:\\Users\\Administrator\\Desktop\\dy2.0\\DyData2\\client"
     ]
   ],
-  "_from": "jquery-ui@1.12.1",
+  "_from": "git+https://github.com/hanekaoru/jqueryui-package.git",
   "_id": "jquery-ui@1.12.1",
   "_inBundle": false,
-  "_integrity": "sha1-vLQEXI3QU5wTS8FIjN0+dop6nlE=",
+  "_integrity": "sha1-nfuRB5aP2moQdvc2+/6AyZ2LIqY=",
   "_location": "/jquery-ui",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "jquery-ui@1.12.1",
+    "type": "git",
+    "raw": "jquery-ui@git+https://github.com/hanekaoru/jqueryui-package.git",
     "name": "jquery-ui",
     "escapedName": "jquery-ui",
-    "rawSpec": "1.12.1",
-    "saveSpec": null,
-    "fetchSpec": "1.12.1"
+    "rawSpec": "git+https://github.com/hanekaoru/jqueryui-package.git",
+    "saveSpec": "git+https://github.com/hanekaoru/jqueryui-package.git",
+    "fetchSpec": "https://github.com/hanekaoru/jqueryui-package.git",
+    "gitCommittish": "master"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "http://registry.npm.taobao.org/jquery-ui/download/jquery-ui-1.12.1.tgz",
-  "_spec": "1.12.1",
-  "_where": "C:\\Users\\Administrator\\Desktop\\dy2.0\\DyData2\\client",
+  "_resolved": "git+https://github.com/hanekaoru/jqueryui-package.git#9bbf872939ce77094aa3eeb63a4a35410bada247",
+  "_spec": "jquery-ui@git+https://github.com/hanekaoru/jqueryui-package.git",
+  "_where": "C:\\Users\\Administrator\\Desktop\\dy-spa\\DyData2\\client",
   "author": {
     "name": "jQuery Foundation and other contributors",
     "url": "https://github.com/jquery/jquery-ui/blob/1.12.1/AUTHORS.txt"
@@ -34,7 +34,9 @@
   "bugs": {
     "url": "https://bugs.jqueryui.com/"
   },
+  "bundleDependencies": false,
   "dependencies": {},
+  "deprecated": false,
   "description": "A curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.",
   "devDependencies": {
     "commitplease": "2.3.0",
