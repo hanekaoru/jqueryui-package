@@ -242,18 +242,10 @@ $.widget( "ui.draggable", $.ui.mouse, {
 			relative: this._getRelativeOffset()
 		};
 
-
-		// 旋转和滚动条冲突，先还原
 		this.offset.click = {
-			left: event.pageX - this.offset.parent.left - this.element.get(0).offsetLeft,
-			top: event.pageY - this.offset.parent.top - this.element.get(0).offsetTop
+			left: event.pageX - this.offset.left,
+			top: event.pageY - this.offset.top
 		};
-
-		// this.offset.click = {
-		// 	left: event.pageX - this.offset.parent.left - this.element.get(0).offsetLeft + $('.center-content').scrollLeft(),
-		// 	top: event.pageY - this.offset.parent.top - this.element.get(0).offsetTop + $('.center-content').scrollTop()
-		// };
-
 	},
 
 	_mouseDrag: function( event, noPropagation ) {
